@@ -8,7 +8,6 @@
 
 - [Introduction](#introduction)
 - [Types of Design Patterns](#types-of-design-patterns)
-- [Gang of Four (GoF) Overview](#gang-of-four-gof-overview)
 - [Creational Design Patterns](#creational-design-patterns)
 - [Structural Design Patterns](#structural-design-patterns)
 - [Behavioral Design Patterns](#behavioral-design-patterns)
@@ -43,14 +42,6 @@ Design patterns are broadly classified into **three categories**:
 | **Creational** | Deal with object creation mechanisms                                    |
 | **Structural** | Deal with object composition and relationships between entities         |
 | **Behavioral** | Deal with communication and responsibility distribution between objects |
-
----
-
-## Gang of Four (GoF) Overview
-
-The term **"Gang of Four" (GoF)** refers to the four authors — **Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides** — who published the book *"Design Patterns: Elements of Reusable Object-Oriented Software"* in 1994.
-
-This book catalogued **23 classic design patterns** grouped into Creational, Structural, and Behavioral categories. It is considered the foundational text for design patterns in software engineering.
 
 ---
 
