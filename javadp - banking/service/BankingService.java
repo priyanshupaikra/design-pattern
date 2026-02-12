@@ -3,6 +3,7 @@ package service;
 import model.Account;
 import model.AccountType;
 import repository.AccountRepository;
+import factory.AccountFactory;
 
 public class BankingService {
 
@@ -26,5 +27,12 @@ public class BankingService {
     public void withdraw(String accountId, double amount) {
         Account account = repository.findById(accountId);
         account.withdraw(amount);
+    }
+
+
+    public AbstractAccount createAccount(String userId, AccountType type) {
+        AbstractAccount account = AccountFactory.createAccount(type, userId);
+        repository.save(account);
+        return account;
     }
 }
